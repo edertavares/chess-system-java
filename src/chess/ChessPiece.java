@@ -2,6 +2,8 @@ package chess;
 
 import boardgame.Board;
 import boardgame.Piece;
+import boardgame.Position;
+import chess.pieces.Rook;
 
 public class ChessPiece extends Piece{
 	
@@ -15,6 +17,8 @@ public class ChessPiece extends Piece{
 	public Color getColor() {
 		return color;
 	}
+	
+
 
 	
 	
